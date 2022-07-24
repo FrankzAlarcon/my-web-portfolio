@@ -4,11 +4,11 @@ import Typed from 'react-typed';
 export default function Presentation() {
   return (
     <div className="flex flex-col items-center mt-10 mb-16 p-2">
-      <div>
+      <div className="rounded-full w-40 h-40 md:w-60 md:h-60">
         <Image
           src="/img/me.jpg"
-          width={150}
-          height={150}
+          width="400"
+          height="400"
           className="rounded-full"
         />
       </div>
