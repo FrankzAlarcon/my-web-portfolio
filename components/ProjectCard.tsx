@@ -20,7 +20,8 @@ export default function ProjectCard({
       href={href}
       target="_blank"
       rel="noreferrer"
-      aria-controls="div"
+      aria-label={`Go to the project ${title}`}
+      aria-controls={`card-${title}`}
       className={`hover:scale-[1.02] transition-all duration-500 ${classStyles ?? ''}`}
     >
       <div className="shadow-md rounded-sm border border-gray-300 w-72 h-full">

@@ -18,10 +18,22 @@ export default function Footer() {
       <div className="flex">
         <p className="font-bold text-white mr-2 text-lg md:text-xl">Contact:</p>
         <div className="flex gap-2 items-center">
-          <a href="mailto:leninalarcon7@gmail.com" target="_blank" className="hover:scale-110 transition-all duration-500" rel="noreferrer">
+          <a
+            href="mailto:leninalarcon7@gmail.com"
+            target="_blank"
+            className="hover:scale-110 transition-all duration-500"
+            rel="noreferrer"
+            aria-label="Send me an email"
+          >
             <MdEmail className="w-7 h-7 text-white md:w-8 md:h-8" />
           </a>
-          <a href="https://www.instagram.com/lenin.alarcon.752/" target="_blank" className="hover:scale-[1.03] transition-all duration-500" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/lenin.alarcon.752/"
+            target="_blank"
+            className="hover:scale-[1.03] transition-all duration-500"
+            rel="noreferrer"
+            aria-label="Follow me on Instagram"
+          >
             <SiInstagram className="w-6 h-6 text-white md:w-8 md:h-8" />
           </a>
         </div>

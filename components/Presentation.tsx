@@ -10,6 +10,7 @@ export default function Presentation() {
           width="400"
           height="400"
           className="rounded-full"
+          alt="Me"
         />
       </div>
       <h2 className="text-3xl text-center font-bold text-gray-800">
