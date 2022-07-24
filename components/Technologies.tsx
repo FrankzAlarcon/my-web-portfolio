@@ -27,7 +27,7 @@ export default function Technologies() {
               <li>
                 Development stack:
                 {' '}
-                <span className="text-blue-500 font-bold">PERN Y MERN</span>
+                <span className="text-blue-500 font-bold">PERN and MERN</span>
               </li>
               <li>
                 Highly concurrent applications with
