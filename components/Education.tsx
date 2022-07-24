@@ -32,7 +32,7 @@ export default function Education() {
         />
         <EducationCard
           Icon={SiJavascript}
-          title="Desarrollo Web"
+          title="Web Development"
           description="Development of landing pages and/or web applications for your business or entrepreneurship."
           classStyles="md:col-span-2 lg:col-span-1"
         />
